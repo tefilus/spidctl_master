@@ -1,0 +1,9 @@
+﻿  spidctl_master.cpp
+  Unknown compiler version - please run the configure tests and report the results
+C:\Users\21145\OneDrive\Desktop\spidctl_master\OSCI2.h(904,24): warning C4244: 'initializing': conversion from 'sc_dt::uint64' to 'ADDRESS_TYPE', possible loss of data
+CmErrMsg.obj : error LNK2001: unresolved external symbol "int scstopDoneFlag" (?scstopDoneFlag@@3HA)
+G4_CommonPrototype.obj : error LNK2001: unresolved external symbol "enum sc_core::sc_time_unit glb_resolution_unit" (?glb_resolution_unit@@3W4sc_time_unit@sc_core@@A)
+spidctl_master.obj : error LNK2001: unresolved external symbol "enum sc_core::sc_time_unit glb_resolution_unit" (?glb_resolution_unit@@3W4sc_time_unit@sc_core@@A)
+SPIDCTL_MASTER_Func.obj : error LNK2001: unresolved external symbol "enum sc_core::sc_time_unit glb_resolution_unit" (?glb_resolution_unit@@3W4sc_time_unit@sc_core@@A)
+SystemC.lib(sc_main_main.obj) : error LNK2019: unresolved external symbol _sc_main referenced in function _sc_elab_and_sim
+C:\Users\21145\OneDrive\Desktop\spidctl_master\Debug\spidctl_master.exe : fatal error LNK1120: 3 unresolved externals
